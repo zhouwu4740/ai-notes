@@ -7,7 +7,15 @@ readme = "README.md"
 packages = [{include = "ai_notes", from = "src"}]
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = ">=3.11,<3.12"
+langchain = "^0.0.335"
+openai = "^1.2.3"
+numpy = "^1.26.2"
+pandas = "^2.1.3"
+matplotlib = "^3.8.1"
+scikit-learn = "^1.3.2"
+jupyterlab = "^4.0.8"
+plotly = "^5.18.0"
 
 
 [build-system]
